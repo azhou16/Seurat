@@ -17,7 +17,7 @@ void draw() {
   
   ellipseMode(CENTER);
   rectMode(CENTER);
-  for(int i = 0; i < (500-sliderx)/50+1; i++){
+  for(int i = 0; i < ceil((500-sliderx)/20+1); i++){
     randomx = round(random(499));
     randomy = round(random(499));
     
@@ -29,7 +29,7 @@ void draw() {
     
     stroke(r,g,b);
     fill(r,g,b);
-    ellipse(randomx,randomy,ceil(sliderx/20),ceil(sliderx/20));
+    ellipse(randomx,randomy,ceil(sliderx/20)+1,ceil(sliderx/20)+1);
   }
   
   if(sliderd){
