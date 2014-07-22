@@ -50,19 +50,6 @@ void draw() {
   fill(255,255,255);
   rect(sliderx,515,10,30);
   
-<<<<<<< HEAD
-=======
-}
-
-void mousePressed(){
-  if(mouseY>500){
-    sliderd = true;
-  }
-}
-
-void mouseReleased(){
-  sliderd = false;
->>>>>>> 6ff2ff82ff1f7126376525dec7933a594ce63eab
 }
 
 void mousePressed(){
